@@ -1,0 +1,6 @@
+.subckt resonator_17M in out
+L1 in n1 16.119u
+C1 n1 n2 5.31p
+R1 n2 out 40
+C0 in out 7.0p
+.ends

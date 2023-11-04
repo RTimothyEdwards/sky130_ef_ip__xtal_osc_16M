@@ -1,0 +1,102 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO sky130_ef_ip__xtal_osc_16M
+  CLASS BLOCK ;
+  FOREIGN sky130_ef_ip__xtal_osc_16M ;
+  ORIGIN -12.300 12.200 ;
+  SIZE 54.630 BY 28.480 ;
+  PIN in
+    ANTENNAGATEAREA 0.420000 ;
+    ANTENNADIFFAREA 0.526800 ;
+    PORT
+      LAYER met1 ;
+        RECT 12.300 5.080 13.300 6.080 ;
+    END
+  END in
+  PIN out
+    PORT
+      LAYER met1 ;
+        RECT 12.300 -3.610 13.300 -2.610 ;
+    END
+  END out
+  PIN avdd
+    ANTENNADIFFAREA 98.890800 ;
+    PORT
+      LAYER met2 ;
+        RECT 12.300 7.935 12.925 16.075 ;
+    END
+  END avdd
+  PIN avss
+    ANTENNADIFFAREA 87.223801 ;
+    PORT
+      LAYER met2 ;
+        RECT 12.300 -12.075 16.865 -3.950 ;
+    END
+  END avss
+  PIN dvdd
+    ANTENNADIFFAREA 4.959600 ;
+    PORT
+      LAYER met2 ;
+        RECT 65.915 2.090 66.930 5.950 ;
+    END
+  END dvdd
+  PIN dvss
+    ANTENNADIFFAREA 21.305099 ;
+    PORT
+      LAYER met1 ;
+        RECT 65.695 -11.740 66.820 -6.920 ;
+    END
+  END dvss
+  PIN ena
+    ANTENNAGATEAREA 0.510000 ;
+    PORT
+      LAYER met1 ;
+        RECT 64.970 -4.810 66.820 -3.810 ;
+    END
+  END ena
+  PIN dout
+    ANTENNADIFFAREA 0.435000 ;
+    PORT
+      LAYER met1 ;
+        RECT 65.820 0.440 66.820 1.440 ;
+    END
+  END dout
+  PIN stdby
+    ANTENNAGATEAREA 0.510000 ;
+    PORT
+      LAYER met1 ;
+        RECT 64.970 7.870 66.820 8.870 ;
+    END
+  END stdby
+  OBS
+      LAYER nwell ;
+        RECT 12.300 14.670 59.650 16.280 ;
+        RECT 12.300 -10.610 13.910 14.670 ;
+        RECT 12.300 -12.200 59.650 -10.610 ;
+      LAYER li1 ;
+        RECT 12.765 -11.780 66.810 15.815 ;
+      LAYER met1 ;
+        RECT 12.830 9.150 66.930 15.845 ;
+        RECT 12.830 7.590 64.690 9.150 ;
+        RECT 12.830 6.360 66.930 7.590 ;
+        RECT 13.580 4.800 66.930 6.360 ;
+        RECT 12.830 1.720 66.930 4.800 ;
+        RECT 12.830 0.160 65.540 1.720 ;
+        RECT 12.830 -2.330 66.930 0.160 ;
+        RECT 13.580 -3.530 66.930 -2.330 ;
+        RECT 13.580 -3.890 64.690 -3.530 ;
+        RECT 12.830 -5.090 64.690 -3.890 ;
+        RECT 12.830 -6.640 66.930 -5.090 ;
+        RECT 12.830 -11.780 65.415 -6.640 ;
+      LAYER met2 ;
+        RECT 13.205 7.655 65.985 16.085 ;
+        RECT 12.925 6.230 65.985 7.655 ;
+        RECT 12.925 1.810 65.635 6.230 ;
+        RECT 12.925 -3.670 65.985 1.810 ;
+        RECT 17.145 -12.075 65.985 -3.670 ;
+  END
+END sky130_ef_ip__xtal_osc_16M
+END LIBRARY
+
